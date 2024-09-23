@@ -1,0 +1,23 @@
+A partir do conjunto de dados US_Regional_Data.csv, você deve usar a estrutura de Data Frame (df) da biblioteca Pandas para manipulação deste dado em uma codificação python.
+
+De posse dessa estrutura você:
+
+1- Crie mais uma coluna no df de rótulo "Sale Classification" que classifique as vendas de acordo com a quantidade na coluna "Order Quantity" como 'Diomond' (Order Quantity >= 7), 'Gold' (Order Quantity >= 5 e Order Quantity < 7), 'Silver' (Order Quantity >= 3 e Order Quantity < 5) e 'Regular' (Order Quantity <= 2).
+
+2 - Exiba apenas os pedidos Diomond.
+
+3 - Informe a média de pedidos, com base na coluna "Order Quantity".
+
+4 - Informe o total de do valor de vendas (Unit Price * Order Quantity) - [(Discount Applied*0,100)*(Unit Price * Order Quantity)] do canal de vendas 'In-Store' da coluna Sales Channel.
+
+5 - Informe qual é o canal de vendas (coluna Sales Channel) que obteve o maior lucro. Maior lucro = maior total de do valor de vendas
+
+6 - Informe qual é o canal de vendas (coluna Sales Channel) que obteve o menor lucro. Menor lucro = menor total de do valor de vendas
+
+7 - Informe a média do lucro do canal de vendas 'In-Store' em pedidos feitos antes de 2019 (até 31/12/2018). Verificar coluna "OrderDate".
+
+8 - Informe a média do lucro do canal de vendas 'Online' em pedidos feitos no ano de 2020. Verificar coluna "OrderDate".
+
+9 - Informe a média do lucro do canal de vendas 'Wholesale' em pedidos feitos até o fim de 2019 (31/12/2019). Verificar coluna "OrderDate".
+
+10 - Informe a média do lucro do canal de vendas 'Distributor' em pedidos feitos entre 2019 (01/01/2019) e 2020 (31/12/2020). Verificar coluna "OrderDate".
