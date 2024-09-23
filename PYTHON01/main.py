@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Leitura do arquivo CSV
-df_csv = pd.read_csv('US_Regional_Sales_Data.csv')
+df_csv = pd.DataFrame(pd.read_csv('US_Regional_Sales_Data.csv'))
 
 # Converter colunas de datas
 date_columns = ['ProcuredDate', 'OrderDate', 'ShipDate', 'DeliveryDate']
